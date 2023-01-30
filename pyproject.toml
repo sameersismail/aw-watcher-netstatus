@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "aw-watcher-netstatus"
+version = "1.0.0"
+description = "An ActivityWatch monitor for observing the network connection status."
+authors = ["Sameer Ismail"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "aw_watcher_netstatus"}]
+repository = "https://github.com/sameersismail/aw-watcher-netstatus"
+documentation = "https://github.com/sameersismail/aw-watcher-netstatus"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aw-core = "^0.5.11"
+aw-client = "^0.5.11"
+
+[tool.poetry.scripts]
+aw-watcher-netstatus = "aw_watcher_netstatus:main"
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^23.1a1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
