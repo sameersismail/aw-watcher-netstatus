@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aw-watcher-netstatus"
-version = "1.0.0"
+version = "1.0.1"
 description = "An ActivityWatch monitor for observing the network connection status."
 authors = ["Sameer Ismail"]
 license = "MIT"
