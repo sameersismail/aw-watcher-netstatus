@@ -4,7 +4,7 @@ from aw_watcher_netstatus.watcher import NetworkWatcher
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser("Monitor network availability.")
+    parser = argparse.ArgumentParser(description="Monitor network availability.")
     parser.add_argument(
         "-v",
         "--verbose",
